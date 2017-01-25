@@ -1,0 +1,22 @@
+{
+  "name": "webpack-getting-started-tutorial",
+  "version": "0.1.0",
+  "description": "Webpack getting stated tutorial",
+  "author": "Wink Saville",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winksaville/webpack-getting-started-tutorial"
+  },
+  "devDependencies": {
+    "csprng": "^0.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test script\" && exit 1",
+    "start": "echo \"Error: no start script\" && exit 1",
+    "build": "webpack --config ./config/webpack.config.js"
+  },
+  "standard": {
+    "globals": []
+  }
+}
