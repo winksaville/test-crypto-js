@@ -2,12 +2,15 @@ var path = require('path');
 var prjPath = path.resolve();
 var srcPath = path.resolve("src");
 var libPath = path.resolve("lib");
+var distPath = path.resolve("dist");
+var pubPath = "/";
 var modulePath = "node_modules";
 
 module.exports = {
   entry: path.join(srcPath, "entry.js"),
   output: {
-    path: path.join(prjPath, "dist"),
+    path: distPath,
+    publicPath: pubPath,
     filename: "bundle.js"
   },
   resolve: {

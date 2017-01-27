@@ -9,12 +9,15 @@
     "url": "https://github.com/winksaville/webpack-getting-started-tutorial"
   },
   "devDependencies": {
-    "csprng": "^0.1.1"
+    "csprng": "^0.1.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test script\" && exit 1",
-    "start": "echo \"Error: no start script\" && exit 1",
-    "build": "webpack --config ./config/webpack.config.js"
+    "client": "chromium http://localhost:8080/index.html",
+    "server": "webpack-dev-server --config ./config/webpack.config.js --hot --inline",
+    "build": "webpack --config ./config/webpack.config.js",
+    "bs": "npm run build && npm run server"
   },
   "standard": {
     "globals": []

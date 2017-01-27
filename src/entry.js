@@ -5,7 +5,4 @@ import * as TC from 'test_crypto';
 // Set onClick window functions
 window.getField = lib.getField;
 window.setField = lib.setField;
-
-// Do a Test of rand
-var randStrg = TC.rand32bitStrg();
-log("randStrg=" + randStrg);
+window.test = TC.test;

@@ -1,3 +1,6 @@
+/**
+ * Library functions
+ */
 import log from 'log.js';
 
 var field = [];
