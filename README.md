@@ -3,9 +3,9 @@
 Prerequesites:
 ```
 node
-npm
-npm install webpack@2 -g
-npm install webpack-dev-server@2 -g
+yarn
+yarn global install webpack@2
+yarn global install webpack-dev-server@2
 chromium
 ```
 
@@ -13,16 +13,16 @@ Clone and install modules:
 ```
 git clone https://github.com/winksaville/test-crypto-js.git
 cd test-crypto-js
-npm install
+yarn install
 ```
 
 In another terminal build and start the webpack-dev-server:
 ```
-npm run bs
+yarn run bs
 ```
 
 Finally start the client in a chromium browser change client script
 in package.json if you have a different browser:
 ```
-npm run client
+yarn run client
 ```

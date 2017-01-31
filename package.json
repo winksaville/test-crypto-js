@@ -18,7 +18,7 @@
     "client": "chromium http://localhost:8080/index.html",
     "server": "webpack-dev-server --config ./config/webpack.config.js --hot --inline",
     "build": "webpack --config ./config/webpack.config.js",
-    "bs": "npm run build && npm run server"
+    "bs": "yarn run build && yarn run server"
   },
   "standard": {
     "globals": []
