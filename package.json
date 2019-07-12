@@ -11,11 +11,12 @@
   "devDependencies": {
     "crypto-js": "^3.1.9-1",
     "csprng": "^0.1.1",
-    "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.2.0"
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   },
   "scripts": {
-    "client": "chromium http://localhost:8080/index.html",
+    "client": "google-chrome-stable http://localhost:8080/index.html",
     "server": "webpack-dev-server --config ./config/webpack.config.js --hot --inline",
     "build": "webpack --config ./config/webpack.config.js",
     "bs": "yarn run build && yarn run server"

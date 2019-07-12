@@ -4,9 +4,7 @@ Prerequesites:
 ```
 node
 yarn
-yarn global install webpack@2
-yarn global install webpack-dev-server@2
-chromium
+google-chrome-stable
 ```
 
 Clone and install modules:
@@ -21,7 +19,7 @@ In another terminal build and start the webpack-dev-server:
 yarn run bs
 ```
 
-Finally start the client in a chromium browser change client script
+Finally start the client in a chrome browser change client script
 in package.json if you have a different browser:
 ```
 yarn run client
